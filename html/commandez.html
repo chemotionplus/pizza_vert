@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>PIZZA VERT</title>
+        <link rel="stylesheet" type="text/css" href="../css/cmplus.css"/>
+        <meta name="viewport" content="width=device-width" />
+    </head>
+    
+    <body>
+        <div id="back_header"></div>
+        
+        <div id="site_web_global">
+            <div id="pizza_vert_header">
+                <div id="logo_pizza_vert">
+                    <img src="../media/pizza_vert_logo.svg"/>
+                </div>
+
+                <div id="menu">
+                    <nav>
+                        <ul id='navigation_list'>
+                            <li class="nav_element"><a href="../index.html" id='accueil'>	Accueil	</a></li>
+                            <li class="nav_element"><a href="../html/pizza.html" id='pizza'>	PIZZA	</a></li>
+                            <li class="nav_element"><a href="../html/pizzeria.html" id='pizzeria_menu'> PIZZERIA </a></li>
+                            <li class="nav_element active"><a href="../html/commandez.html" id='comande' title="PASSEZ UNE COMMANDE"> COMMANDEZ </a></li>
+                            <li class="nav_element" ><a href="../html/loisir.html" id='loisir'> LOISIR </a></li>
+                            <li class="nav_element" ><a href="../html/calc.html" id='calculatrice'> CALCULATRICE </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="barre_btn">
+                    <span></span>
+                </div>
+            </div>
+            
+            <div id="form_commande">
+                <form method="post" action="mailto:louischeedwichjunior@gmail.com" id="formulaire_commande">
+                    
+                    <label class="form_header">Placez Votre Commande</label>
+                    
+                    <div id="champ_select">
+                        <label class="info_label">Votre Pizza</label>
+                        <select name="pizza" id="pizza" class="info_input">
+                            <option value="Bon Bagay">Bon Bagay</option>
+                            <option value="Margherita">Margherita</option>
+                            <option value="Reine">Reine</option>
+                            <option value="Napolitaine">Napolitaine</option>
+                            <option value="Marinara">Marinara</option>
+                            <option value="Romaine">Romaine</option>
+                            <option value="Sicilienne">Sicilienne</option>
+                            <option value="Capricciosa">Capricciosa</option>
+                            <option value="Quatre saisons">Quatre saisons</option>
+                            <option value="Quatre fromages">Quatre fromages</option>
+                            <option value="Calzone">Calzone</option>
+                            <option value="Toute garnie">Toute garnie</option>
+                            <option value="Hawaïenne">Hawaïenne</option>
+                            <option value="Poulet">Poulet</option>
+                        </select>
+                    </div>
+
+                    <div id="taille">
+                        
+                        <label for="small">Small</label>
+                        <input type="radio" name="taille" value="small" id="small"/>
+
+                        <label for="medium">Medium</label>
+                        <input type="radio" name="taille" value="medium" id="medium"/>
+
+                        <label for="large">Large</label>
+                        <input type="radio" name="taille" value="large" id="large"/>
+                    </div>
+
+                    <div id="champ_accp">
+                        
+                        <h1>Accompagnement gratuit</h1>
+                        <label for="bierre_prestige">Bierre Prestige</label>
+                        <input type="radio" name="accp" value="bierre_prestige" id="bierre_prestige"/>
+
+                        <label for="soda">soda</label>
+                        <input type="radio" name="accp" value="soda" id="soda"/>
+
+                        <label for="bierre_heineken">Bierre Heineken</label>
+                        <input type="radio" name="accp" value="bierre_heineken" id="bierre_heineken"/>
+                    </div>
+                    
+                    <div id="champ_info">
+                        <label class="info_label">NOM COMPLET</label>
+                        <input type="text" class="info_input" placeholder="louis che edwich junior" required/><br/>
+
+                        <label class="info_label">ADRESSE</label>
+                        <input type="text" class="info_input" placeholder="#42, Delmas 33 siloe" required/><br/>
+
+                        <label class="info_label">TELEPHONE</label>
+                        <input type="text" class="info_input" placeholder="41797218" required/><br/>
+                    </div>
+                    
+                    <div id="pizza_memo">
+                        <label id="memo_label">un petit mot</label>
+                        <textarea NAME="info" placeholder="J'aimmerais avoir un suplement de poivron vert si possible!!!" rows=10 cols=40 id="info"></textarea>
+                    </div>
+                    
+                    <div id="send">
+                        <input type="submit" value="Envoyer"/>
+                        <input type="reset" name="Reset"/>
+                    </div>
+                    
+                </form>
+            </div>
+            
+        </div>
+        <footer>
+        
+		<div id="cmplus_footer">
+            <figure id="cmplus_logo_footer">
+                <a href="../media/cmplus.jpg"><img alt="chemotionplus" src="../media/cmplus_mini.png"/></a>
+            </figure>
+            <figcaption>Etudiant à la Faculté de Genie et de nouvelle Technologie de l'université INUKA. <br/> 3ème année Science Info</figcaption>
+            
+            <div id="cmplus_conteneur_footer">
+                <div class="footer_block">
+                    <a href="https://twitter.com/EGeek6" target="_blank"><img src="../media/twitter_logo.svg"/></a>
+                </div>
+                
+                <div class="footer_block">
+                    <a href="https://www.youtube.com/channel/UCsF8TAwOrsRaStA2M_-H2Lg?view_as=subscriber" target="_blank"><img src="../media/youtube_logo.svg"/></a>
+                </div>
+                
+                <div class="footer_block">
+                    <a href="https://www.facebook.com/egeek/" target="_blank"><img src="../media/facebook_logo.svg"/></a>
+                </div>
+                
+                <div class="footer_block">
+                    <a href="https://www.instagram.com/egeeksa18/" target="_blank"><img src="../media/instagram_logo.svg"/></a>
+                </div>
+                
+                <div class="footer_block">
+                    <a href="https://chat.whatsapp.com/6eLZ0xlCHe6GqEAkrX6mCB"><img src="../media/whatsapp_logo.svg"/></a>
+                </div>
+                
+                <div class="footer_block">
+                    <a href="mailto:egeeksa18@gmail.com"> <img src="../media/gmail_logo.svg"/></a>
+                </div>
+            </div>
+		</div>
+        <div id="cmplus_libelle_footer">
+                © 2019 chemotionplus, All rights reserved
+        </div>
+	</footer>
+        
+        <script src="../js/cmplus.js"></script>
+    </body>
+</html>

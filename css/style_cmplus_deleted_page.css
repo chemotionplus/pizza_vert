@@ -1,0 +1,170 @@
+/*regle css pour le corps de la presentation sur moi*/
+#cv_header
+{
+	display: flex;
+	position: relative;
+	top: 30px;
+	justify-content: center;
+}
+
+#rond
+{
+	width: 180px;
+	height: 180px;
+	background-color: #9FC131;
+	border-radius: 100%;
+	border: 1px solid white;
+}
+
+#barre_info
+{
+	margin-top: 40.5px;
+	margin-left: -15px;
+	width: 750px;
+	height: 100px;
+	background-color: #9FC131;     
+	text-align: center;
+	border-left: 0px;
+}
+
+#prof_footer
+{
+	display: flex;
+	position: relative;
+	top: 30px;
+	justify-content: center;
+}
+
+.rond
+{
+	width: 180px;
+	height: 180px;
+	left: 5%;
+	background-color: #9FC131;
+	border-radius: 100%;
+	border: 1px solid white;
+}
+
+.barre_info
+{
+	margin-top: 40.5px;
+	margin-left: -15px;
+	width: 750px;
+	height: 100px;
+	background-color: #9FC131;     
+	text-align: center;
+	border-left: 0px;
+}
+
+#mon_avatar, .mon_avatar
+{
+	margin: 15px 15px 15px 15px;
+	width: 150px;
+}
+#info_description, .info_description
+{
+    font-family: 'Droid Sans', sans-serif;
+    color: #626262;
+	margin: 0px;
+}
+
+
+#cv_header h1, #prof_footer h1
+{
+	font-family: 'droid_sansbold', serif;
+    margin-top: 15px;
+	color: white;
+}
+
+
+#aside p, #aside ul li
+{
+	font-family: 'Droid Sans', sans-serif;
+	color: #626262;
+    display: block;
+	text-align: justify;
+}
+
+#aside h2
+{
+	font-family: 'droid_sansbold', serif;
+	text-transform: uppercase;
+	color: #008cba;
+	font-size: 14px;
+}
+
+#aside
+{
+	display: flex;
+    justify-content: space-between;
+	margin: 60px;
+}
+#aside1, #aside2, #aside3
+{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+}
+
+#aside1
+{
+    width: 35%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#aside2
+{
+	width: 40%;
+}
+
+#aside3
+{
+    width: 30%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.ligne
+{
+    width: 70%;
+    height: 10px;
+    border-radius: 1px;
+    background-color: #9FC131;
+    box-shadow: none;
+}
+
+a
+{
+	color: #0c2461;
+}
+
+#info_devoir
+{
+    width: 60%;
+	height: 230px;
+    position: relative;
+    margin: auto;
+	padding: 10px;
+    font-family: 'Droid Sans', sans-serif;
+	color: #626262;
+    display: block;
+	text-align: justify;
+	box-sizing: border-box;
+    background-color: #f3f3f3;
+	border-radius: 25px;
+}
+
+
+#info_devoir span p
+{
+	text-align: center;
+	
+}
+
+#info_devoir span ol
+{
+	position: relative;
+	top: 10%;
+	left: 15%;
+}
