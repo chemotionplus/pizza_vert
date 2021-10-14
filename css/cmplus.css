@@ -1,0 +1,1295 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, #menu
+{
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+#back_header
+{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    border-bottom: 2px solid rgba(0,0,0,.1);
+    box-shadow: 0px 1px 10px grey;
+    z-index: 1;
+}
+#site_web_global
+{
+    position: relative;
+    margin: auto;
+	max-width: 1350px;
+}
+
+.active
+{
+	background-position:-4px -1px;
+	background-repeat:no-repeat;
+    background-color: #9fc131;
+    height: 70px;
+    
+	border-bottom: 5px solid #008cba;
+}
+
+#cv
+{
+    position: relative;
+    display: block;
+}
+
+/*regle css pour la barre de navigation*/
+
+.barre_btn
+{
+    display: none;
+}
+
+#pizza_vert_header
+{
+    height: 70px;
+}
+
+#logo_pizza_vert img
+{
+	position: fixed;
+	top: -5px;
+	left: 5%;
+	margin: 0;
+	width: 80px;
+	z-index: 1;
+}
+
+
+#menu 
+{
+	position: fixed;
+	top: 0%;
+	right: 0%;
+	width: 750px;
+	height: 70px;
+	font-family: 'Droid Sans',sans-serif;
+    text-transform: uppercase; 
+    text-decoration: none;
+    background-color: transparent;
+	text-align: center;
+	letter-spacing: .02em;
+    font-size: 14px;
+    z-index: 1;
+}
+
+#menu_open
+{
+	position: fixed;
+	top: 0%;
+	right: 0%;
+	width: 750px;
+	height: 70px;
+	font-family: 'Droid Sans',sans-serif;
+    text-transform: uppercase; 
+    text-decoration: none;
+    background-color: transparent;
+	text-align: center;
+	letter-spacing: .02em;
+    font-size: 14px;
+    z-index: 1;
+}
+
+#navigation_list li
+{
+	margin: 0;
+    display: inline-block;
+	box-sizing: border-box;
+    cursor: pointer;
+}
+
+#navigation_list a
+{
+	color: #626262;
+	margin: 24px;
+	text-decoration: none;
+	box-sizing: border-box;
+	display: inline-block;
+    height: 42px;
+}
+
+.nav_element:hover 
+{
+	height: 70px;
+	border-bottom: 5px solid #008cba;
+}
+
+.nav_element_selected 
+{
+	height: 70px;
+	background-color: #9FC131;
+	border-bottom: 5px solid #008cba;
+}
+
+/*page pizza*/
+
+#pizza_pizza
+{
+	position: relative;
+    z-index: -1;
+	margin: 0 auto;
+	padding: 0;
+	top: 50px;
+	width: 100%;
+    height: 400px;
+    background-color: #f3f3f3;
+	display: flex;
+	font-family: 'Droid sans';
+}
+
+#pizza_libelle
+{
+	position: relative;
+	width: 416px;
+	top: 10%;
+	left: 25%;
+	padding-top: 25px;
+	font-size: 4em;
+	color:   #626262;
+	text-align: right;
+}
+
+#pizza_pizza h2
+{
+	font-size: .6em;
+}
+
+#pizza_pizza p
+{
+	font-size: .3em;
+	text-align: justify;
+}
+
+#pizza_pizza h1 span
+{
+	color: rgb(198,16,5);
+}
+
+#pizza_pizza h1
+{
+	color: #9fc131;
+}
+
+#pizza_pizza img
+{
+	position: relative;
+	left: 20%;
+    width: 300px;
+	display: block;
+}
+
+#pizza_banner
+{
+    background-image: url("../media/pizza_ingredient.jpg");
+    width: 100%;
+	height: 416px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#pizza_list
+{
+    position: relative;
+    width: 98%;
+    margin: auto;
+    display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+    z-index: -1;
+}
+
+.pizza_type
+{
+    margin-top: 10px;
+    width: 520px;
+    height: 520px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+}
+
+.pizza_table
+{
+    position: relative;
+    margin: auto;
+    border-collapse: collapse;
+    color: #626262;
+    font-family: 'Droid Sans';
+}
+
+.pizza_table caption
+{
+    margin-top: 10px;
+    font-size: 1.8em;
+    color: rgb(198,16,5);
+    font-family: 'droid_sansbold';
+}
+
+.pizza_table td,th
+{
+    border: 5px solid #9FC131;
+    padding: 5px;
+}
+
+.pizza_header1
+{
+    width: 100px;
+}
+
+.pizza_header2
+{
+    width: 200px;
+}
+
+.pizza_header3
+{
+    width: 50px;
+}
+
+.pizza_header4
+{
+    width: 60px;
+}
+
+.pizza_button
+{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 210px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #9FC131;
+    border-style: none;
+    cursor: pointer;
+	font-family: 'Droid Sans';
+	color: #626262;
+}
+
+.pizza_img
+{
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    border: 5px solid #9FC131;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.pizza_img img
+{
+    width: 200px;
+}
+
+/*Pizzeria*/
+
+.pizza_banner
+{
+    background-image: url("../media/pizza_map.png");
+    width: 100%;
+	height: 416px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#pizzeria
+{
+    width: 98%;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+    z-index: -1;
+}
+
+.pizzeria
+{
+    position: relative;
+    width: 200px;
+    height: 350px;
+    margin-top: 60px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+	margin-left: 60px;
+	font-family: 'Droid Sans';
+	text-align: center;
+	color: #626262;
+	font-size: 13px;
+	border: 2px solid #9FC131;
+}
+
+.pizzeria_desc
+{
+    position: relative;
+    width: 190px;
+    height: 315px;
+	margin: auto;
+	padding: 5px;
+	top: 5%;
+    box-sizing: border-box;
+	background-color: transparent;
+}
+
+.pizzeria_desc hr
+{
+	position: relative;
+	width: 85%;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #9fc131;
+	border-style: none;
+}
+
+.pizzeria_desc h1
+{
+	font-family: 'droid_sansbold';
+	font-size: 1.3em;
+	color: rgb(198,16,5);
+}
+
+.pizzeria_logo
+{
+	position: absolute;
+    border: 5px solid #9FC131;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    top: 70%;
+    left: -30%;
+    background-color: #626262;
+}
+
+.pizzeria_logo img
+{
+	width: 141px;
+}
+
+#header_img
+{
+    z-index: -1;
+    position: relative;
+    top: 2px;
+    max-width: 1350px;
+    height: 600px;
+    background-image: url(../media/index_background.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+body
+{
+    background-image: url(../mediak/index_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#index_pizza_pizza
+{
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	top: 50px;
+	width: 100%;
+    height: 400px;
+	display: flex;
+	font-family: 'Droid sans';
+}
+
+#index_pizza_libelle
+{
+	position: relative;
+	width: 416px;
+	top: 10%;
+	left: 10%;
+	padding-top: 25px;
+	font-size: 4em;
+	color: #9fc131;
+	text-align: right;
+}
+
+#index_pizza_pizza h2
+{
+	font-size: .6em;
+}
+
+#index_pizza_pizza h1 span
+{
+	color: rgb(198,16,5);
+}
+
+#index_pizza_pizza img
+{
+	position: relative;
+	left: 5%;
+    width: 300px;
+	display: block;
+}
+
+#citation
+{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    vertical-align: baseline;
+    z-index: -1;
+}
+#citation img
+{
+    width: 350px;
+    box-sizing: border-box;
+}
+
+#citation #text
+{
+    width: 500px;
+    height: 350;
+    box-sizing: border-box;
+    font-weight: 300;
+    margin: 60px;
+    margin-left: 0;
+}
+
+#citation #text p
+{
+    font-style: italic;
+    color: #626262;
+    font-family: "Droid Sans";
+}
+
+#citation h1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #9FC131;
+    font-size: 1.5em;
+    font-family: 'Droid Sans',cursive;
+}
+
+blockquote
+{
+    float: right;
+    font-family: sans-serif;
+    color: #9fc131;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#about_us
+{
+    position: relative;
+	margin: 0 auto;
+	padding: 5px;
+	top: 100px;
+	width: 100%;
+    height: 400px;
+    background-color: #f3f3f3;
+	font-family: 'Droid sans';
+    align-items: center;
+    justify-content: center;
+    background-image: url("../media/ingredient.png");
+    background-size: cover;
+    z-index: -1;
+}
+
+#about_us h1
+{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3.2em;
+    text-transform: capitalize;
+    color: #9fc131;
+}
+
+#about_us_text
+{
+    top: 70px;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    font-size: 20px;
+    color: #f3f3f3;
+    text-align: center;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 15px;
+}
+
+#service
+{
+    position: relative;
+	margin: 0 auto;
+	padding: 5px;
+	top: 100px;
+	width: 100%;
+    height: 600px;
+    background-color: #f3f3f3;
+	font-family: 'Droid sans';
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+#service #element
+{
+    position: relative;
+    top: 70px;
+}
+
+#service_title
+{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3.2em;
+    text-transform: capitalize;
+    color: #9fc131;
+}
+
+#service_element
+{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    width: auto;
+    height: 350px;
+    position:  relative;
+}
+
+.s_element
+{
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.s_element:first-child
+{
+   background-image: url("../media/your_pizza.jpg");
+    background-size: cover;
+}
+
+.s_element:last-child
+{
+   background-image: url("../media/your_commande.jpg");
+    background-size: cover;
+}
+
+.s_element:first-child+div
+{
+   background-image: url("../media/PizzaMap.png");
+    background-size: cover;
+}
+
+.s_element h1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #9FC131;
+    margin-top: 80px;
+}
+
+.s_element a
+{
+    text-decoration: none;
+}
+
+.s_element p
+{
+    font-size: 16px;
+    color: #f3f3f3;
+}
+
+.s_element div
+{
+    position: relative;
+    margin: 5% auto;
+    padding: 10px;
+    width: 95%;
+    height: 95%;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+#banner_end
+{
+    position: relative;
+	margin: 0 auto;
+	padding: 5px;
+	top: 100px;
+	width: 100%;
+    height: 150px;
+    background-color: #f3f3f3;
+	font-family: 'Droid sans';
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+/* Pied de page*/
+
+footer
+{
+    z-index: -1;
+}
+#cmplus_footer
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    right:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cmplus_logo_footer
+{
+    width: 100px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#cmplus_footer figcaption
+{
+    position: relative;
+    margin: auto;
+    width: 40%;
+    font-size: 16px;
+    color: #9dc131;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Droid Sans';
+    border-radius: 15px;
+}
+
+#cmplus_logo_footer img
+{
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+#cmplus_conteneur_footer
+{
+    display: flex;
+    position:relative;
+    justify-content: center;
+	height: 70px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.footer_block img
+{
+    width: 50px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+#cmplus_libelle_footer
+{
+    font-family: 'Droid Sans';
+    position: relative;
+    width: 100%;
+    height: 70px;
+    padding: 14px;
+    background-color: #9fc131;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#formulaire_commande
+{
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    top: 50px;
+    width: 500px;
+    height: 600px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: 'Droid Sans';
+	color: #9fc131;
+}
+
+#formulaire_calc
+{
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    top: 50px;
+    width: 500px;
+    height: 400px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: 'Droid Sans';
+	color: #9fc131;
+    background-image: url('../media/calcFond.jpg');
+	background-size: cover;
+}
+
+#resultat
+{
+    width: 250px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form_header
+{
+    display: block;
+    position: relative;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    font-size: 2em;
+    font-family: 'Droid Sans';
+	color: #9fc131;
+}
+
+#champ_select, #champ_accp, #champ_info, #send
+{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 400px;
+    justify-content: center;
+}
+
+#champ_info
+{
+	top: 30px;
+}
+
+#champ_accp
+{
+	top: 10px;
+	text-align: center;
+}
+
+#champ_select_calc
+{
+	margin-bottom: 10px;
+}
+
+#taille
+{
+    position: relative;
+    display: block;
+    width: 225px;
+    margin: 5px auto;
+}
+
+.info_label
+{
+	position: relative;
+	display: inline-block;
+    width: 145px;
+	height: 27px;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.info_label_calc
+{
+    position: relative;
+	display: inline-block;
+    width: 210px;
+	height: 27px;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.info_input
+{
+	position: relative;
+	display: inline-block;
+    width: 185px;
+	height: 27px;
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+#pizza_memo
+{
+	position: relative;
+	margin: auto;
+	text-align: center;
+	width: 400px;
+	top: 50px;
+}
+#pizza_memo textarea
+{
+	position: relative;
+	padding: 10px;
+    border-radius: 10px;
+	border: none;
+	box-sizing: border-box;
+    max-width: 400px;
+    max-height: 170px;
+}
+
+
+#send
+{
+	position: relative;
+	top: 70px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+#send input
+{
+	margin: 15px;
+	width: 100px;
+	height: 27px;
+	box-sizing: border-box;
+}
+
+#form_commande
+{
+    background-image: url('../media/index_background.png');
+	background-size: cover;
+	height: 1000px;
+}
+
+#form_calc
+{
+    background-image: url('../media/calcPageFond.jpg');
+	background-size: cover;
+	height: 1000px;
+}
+
+
+/*page loisir*/
+
+#messi_the_best
+{
+    position: relative;
+	color: #f3f3f3;
+	font-weight: bold;
+	font-family: 'Droid Sans';
+    background-color: transparent;
+	text-align: center;
+}
+
+.messi_the_best
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.messi_the_best video
+{
+    max-width: 1280px;
+    margin: 15px auto;
+	margin-top: 30px;
+    width: 40%;
+    align-content: center;
+}
+
+#messi_the_best h1
+{
+	font-size: 2em;
+    text-transform: uppercase;
+}
+#messi_the_best video
+{
+	max-width: 1280px;
+	margin-top: 20px;
+    width: 65%;
+    right: 0;
+}
+
+#special
+{
+    color: red;
+}
+#page_video
+{
+    position: relative;
+    background-image: url('../media/lio1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+    background-attachment: fixed;
+}
+
+#page_video #video_principale
+{
+    margin-top: 150px;
+}
+
+
+
+#side
+{
+    float: left;
+}
+
+
+
+
+/*regles media queries*/
+
+/*
+    Device: Dekstop
+*/
+@media (min-width: 1281px)
+{
+
+}
+
+/*
+    Device: laptop,Dekstop
+*/
+@media (min-width: 1025) and (max-width: 1280px)
+{
+
+}
+
+
+/*
+    Device: tablets,ipads
+*/
+@media (min-width: 800px) and (max-width: 1024px)
+{
+	#menu
+	{
+		position: absolute;
+        top: 70px;
+        left: -150px;
+        width: 150px;
+        height: 400px;
+        background-color: #00a9d2;
+        border-bottom-right-radius: 15px;
+        transition-duration: .25s;
+        transition-timing-function: ease-in-out;
+	}
+    
+    #menu_open
+    {
+        position: fixed;
+        top: 70px;
+        left: 0px;
+        width: 170px;
+        height: 420px;
+        background-color: rgba(0,169,210,.8);
+        border-bottom-right-radius: 15px;
+        transition-duration: .25s;
+        transition-timing-function: ease-in-out;
+        font-family: 'Droid Sans',sans-serif;
+        text-transform: uppercase; 
+        text-decoration: none;
+        text-align: center;
+        letter-spacing: .02em;
+        font-size: 14px;
+    }
+    
+    #navigation_list a
+    {
+        height: inherit;
+        color: white;
+    }
+    
+    .nav_element:hover 
+    {
+	   height: 70px;
+	   border-bottom: none;
+    }
+    
+    .barre_btn
+    {
+        position: fixed;
+        display: block;
+        height: 30px;
+        width: 30px;
+        right: 0;
+        margin-right: 10px;
+        margin-top: 15px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    
+    .barre_btn span
+    {
+        height: 4px;
+        background-color: #9fc131;
+        width: 100%;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        border-radius: 10px;
+    }
+    
+     .barre_btn span:before
+    {
+        content: '';
+        height: 4px;
+        background-color: #9fc131;
+        width: 100%;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        border-radius: 10px;
+    }
+    
+    .barre_btn span:after
+    {
+        content: '';
+        height: 4px;
+        background-color: #9fc131;
+        width: 100%;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        border-radius: 10px;
+    }
+    
+	#service_element 
+    {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px;
+        width: auto;
+        height: 100%;
+        position: relative;
+    }
+    
+    #service 
+    {
+        position: relative;
+        margin: 0 auto;
+        padding: 5px;
+        top: 100px;
+        width: 100%;
+        height: 100%;
+        background-color: #f3f3f3;
+        font-family: 'Droid sans';
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about_us h1, #service_title
+    {
+        font-size: 2.5em;
+    }
+
+    #about_us_text 
+    {
+        top: 5px;
+        width: 80%;
+    }
+
+        #pizza_pizza {
+        flex-wrap: wrap-reverse;
+    }
+    
+}
+
+
+/*
+    Device: tablets,ipad,mobiles low resolution
+*/
+@media (max-width: 800px)
+{
+	#menu
+	{
+		position: absolute;
+        top: 70px;
+        left: -150px;
+        width: 150px;
+        height: 400px;
+        background-color: #00a9d2;
+        border-bottom-right-radius: 15px;
+        transition-duration: .25s;
+        transition-timing-function: ease-in-out;
+	}
+    
+    #menu_open
+    {
+        position: fixed;
+        top: 70px;
+        left: 0px;
+        width: 150px;
+        height: 405px;
+        background-color: rgba(0,169,210,.8);
+        border-bottom-right-radius: 15px;
+        transition-duration: .25s;
+        transition-timing-function: ease-in-out;
+        font-family: 'Droid Sans',sans-serif;
+        text-transform: uppercase; 
+        text-decoration: none;
+        text-align: center;
+        letter-spacing: .02em;
+        font-size: 14px;
+    }
+    
+    #navigation_list a
+    {
+        height: inherit;
+        color: white;
+    }
+    
+    .nav_element:hover 
+    {
+	   height: 70px;
+	   border-bottom: none;
+    }
+    
+    .barre_btn
+    {
+        position: fixed;
+        display: block;
+        height: 30px;
+        width: 30px;
+        right: 0;
+        margin-right: 10px;
+        margin-top: 15px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    
+    .barre_btn span
+    {
+        height: 4px;
+        background-color: #9fc131;
+        width: 100%;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        border-radius: 10px;
+    }
+    
+     .barre_btn span:before
+    {
+        content: '';
+        height: 4px;
+        background-color: #9fc131;
+        width: 100%;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        border-radius: 10px;
+    }
+    
+    .barre_btn span:after
+    {
+        content: '';
+        height: 4px;
+        background-color: #9fc131;
+        width: 100%;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        border-radius: 10px;
+    }
+    
+	#service_element {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+    
+    #service {
+    position: relative;
+    margin: 0 auto;
+    padding: 5px;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+    font-family: 'Droid sans';
+    align-items: center;
+    justify-content: center;
+}
+#about_us h1, #service_title
+{
+    font-size: 2.5em;
+}
+
+#about_us_text 
+{
+    top: 5px;
+    width: 80%;
+}
+    
+#index_pizza_pizza {
+    top: 5px;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap-reverse;
+    }
+    
+#pizza_pizza {
+    flex-wrap: wrap-reverse;
+}
+    
+}
+
+@font-face
+{
+    font-family: 'Droid Sans';
+    src: url('fonts/DroidSans-webfont.eot');
+    src: url('fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSans-webfont.woff2') format('woff2'),
+         url('fonts/DroidSans-webfont.woff') format('woff'),
+         url('fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'droid_sansbold';
+    src: url('fonts/DroidSans-Bold-webfont.eot');
+    src: url('fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSans-Bold-webfont.woff2') format('woff2'),
+         url('fonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/DroidSans-Bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
